@@ -13,6 +13,7 @@ import java.util.List;
 public class StoreController {
 
     @Autowired
+
     private StoreItemRepository storeItemRepository;
 
     @GetMapping("/getStoreItem")
