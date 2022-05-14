@@ -22,6 +22,9 @@ public class StoreItem {
     @Column(name = "stock")
     private int stock;
 
+    @Column(name = "img_url")
+    private String img_url;
+
     public int getId() {
         return id;
     }
@@ -60,5 +63,13 @@ public class StoreItem {
 
     public void setStock(int stock) {
         this.stock = stock;
+    }
+
+    public String getImg_url() {
+        return img_url;
+    }
+
+    public void setImg_url(String img_url) {
+        this.img_url = img_url;
     }
 }
